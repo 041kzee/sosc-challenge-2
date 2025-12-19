@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// check number is prime
 bool isPrime(int x) {
     if (x < 2) return false;
     for (int i = 2; i * i <= x; i++) {
